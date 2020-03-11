@@ -1,0 +1,76 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-color: pink;
+}
+.main-div{
+    display: grid;
+    grid-auto-flow: column;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    grid-template-columns: 20% 80%;
+}
+.main-game{
+    height: 100%;
+    display: grid;
+    background-color: beige;
+    grid-template-columns: 50%;
+    justify-content: center;
+}
+.score{
+    height: 100%;
+    width: 100%;
+    text-align-last: center;
+    background-color: lightgray;
+    font-size: -webkit-xxx-large;
+}
+.road{
+    background-color: slategrey;
+    position: relative;
+    overflow: hidden;
+}
+.line{
+    width: 4%;
+    height: 24vh;
+    position: absolute;
+    background-color: white;
+    left: 48%;
+}
+#line-1{
+    top: 65px;
+}
+#line-2{
+    top: 360px;
+}
+#line-3{
+    top: 655px;
+}
+.car{
+    position: absolute;
+    width: 8%;
+    height: 8%;
+    background-color: green;
+}
+#car1{
+    top: 150px;
+    left: 45%;
+}
+#car2{
+    top: 250px;
+    left: 20%;
+}
+#car3{
+    top: 400px;
+    left: 70%;
+}
+#car4{
+    top: 10px;
+    left: 27%;
+}
+#car5{
+    top: 20px;
+    left: 80%;
+}
