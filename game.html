@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -12,24 +13,25 @@
 <body>
     <div class="main-div">
     <div class="score">
-        <label for="score">Score : </label><span>30</span>
+        <label for="score">Score : </label><span id="score-value"></span>
     </div>
     <div class="main-game">
         <div class="road">
             <div class="line" id="line-1"></div>
             <div class="line" id="line-2"></div>
             <div class="line" id="line-3"></div>
+            <div class="car" id="car"></div>
             <div class="car" id="car1"></div>
             <div class="car" id="car2"></div>
             <div class="car" id="car3"></div>
             <div class="car" id="car4"></div>
             <div class="car" id="car5"></div>
             <div id="restart-div">
-                <button id="restart">Restart</button>
+                <button id="restart">Press Enter To Continue</button>
             </div>
         </div>
     </div>
     </div>
 </body>
-
+<script src="game.js"></script>
 </html>

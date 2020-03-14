@@ -32,21 +32,35 @@ html,body{
     position: relative;
     overflow: hidden;
 }
+#restart-div{
+    background-color:red;
+    z-index: 3;
+    position: relative;
+    overflow: hidden;
+    display: none;
+    height: 1050px;
+}
+#restart{
+    margin-top: 420px;
+    margin-left: 250px;
+    height: 125px;
+    width: 200px
+}
 .line{
     width: 4%;
-    height: 24vh;
+    height: 24%;
     position: absolute;
     background-color: white;
     left: 48%;
 }
 #line-1{
-    top: 65px;
+    top: -65px;
 }
 #line-2{
     top: 360px;
 }
 #line-3{
-    top: 655px;
+    top: 785px;
 }
 .car{
     position: absolute;
@@ -73,4 +87,9 @@ html,body{
 #car5{
     top: 20px;
     left: 80%;
+}
+#car{
+    background-color: red !important;
+    top : 450px;
+    left: 47%;
 }
